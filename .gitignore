@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+temp/
+.streamlit/secrets.toml
+.env
+.env.*
+
+models/*.pt
+
+# Exclude clinical data unless privacy and redistribution terms are verified.
+data/images/
+data/processed/*.csv
